@@ -627,7 +627,9 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("p", [_vm._v("Home")])
+  return _c("h1", { staticClass: "text-3xl font-normal text-grey-darkest" }, [
+    _vm._v("Full Logo")
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -15630,8 +15632,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/connect/Documents/adino/learnone/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/connect/Documents/adino/learnone/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/quangtrung/Documents/develop/LearnVue/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/quangtrung/Documents/develop/LearnVue/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
