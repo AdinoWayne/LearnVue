@@ -29,7 +29,6 @@
                                <li class="text-sm leading-loose"><router-link class="text-black" to="/typography">Typography</router-link></li>
                             </ul>
                         </section>
-
                          <section>
                             <h5 class="uppercase font-bold mb-3">Doodles</h5>
 

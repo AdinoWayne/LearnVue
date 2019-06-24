@@ -1,20 +1,25 @@
 import Logo from './components/Logo';
-import  LogoSymbol from './components/LogoSymbol';
+import LogoSymbol from './components/LogoSymbol';
 import Colors from './components/Colors';
 import Typography from './components/Typography';
 import Mascot from './components/Mascot';
 import Illustrations from './components/Illustrations';
 import LoadersAndAnimations from './components/LoadersAndAnimations';
 import Wallpapers from './components/Wallpapers';
+import NotFound from './components/NotFound';
 
 export default {
     mode: 'history',
     linkActiveClass: 'font-bold',
     routes: [
         {
+            path: '*',
+            component: NotFound
+        },
+        {
             path: '/',
             component: Logo,
-	        name: 'Logo'
+            name: 'Logo'
         },
         {
             path: '/logo-symbol',
@@ -24,32 +29,32 @@ export default {
         {
             path: '/colors',
             component: Colors,
-	        name: 'Colors'
+            name: 'Colors'
         },
         {
             path: '/typography',
             component: Typography,
-	        name: 'Typography'
+            name: 'Typography'
         },
         {
             path: '/mascot',
             component: Mascot,
-	        name: 'Mascot'
+            name: 'Mascot'
         },
         {
             path: '/illustrations',
             component: Illustrations,
-	        name: 'Illustrations'
+            name: 'Illustrations'
         },
         {
             path: '/loaders-and-animations',
             component: LoadersAndAnimations,
-	        name: 'LoadersAndAnimations'
+            name: 'LoadersAndAnimations'
         },
         {
             path: '/wallpapers',
             component: Wallpapers,
-	        name: 'Wallpapers'
+            name: 'Wallpapers'
         },
     ]
 }
