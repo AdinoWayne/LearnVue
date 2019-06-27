@@ -10,7 +10,7 @@
 </head>
 <body class="font-sans">
         <div id="app">
-            <div class="container mx-auto">
+            <div class="container px-8">
                 <header class="py-6 mb-8">
                     <h1>
                         <img alt="Laracasts" src="http://pluspng.com/img-png/avengers-logo-png-avengers-logo-3069.png" width="180">
@@ -18,9 +18,9 @@
                 </header>
 
                  <main class="flex">
-                    <aside class="w-1/5">
+                    <aside class="w-1/5 pt-8">
                         <section class="mb-8">
-                            <h5 class="uppercase font-bold mb-3">The Brand</h5>
+                            <h5 class="uppercase font-bold mb-3 text-base">The Brand</h5>
 
                              <ul class="list-reset">
                                <li class="text-sm leading-loose"><router-link class="text-black" to="/" exact>Logo</router-link></li>

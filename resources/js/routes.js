@@ -7,6 +7,7 @@ import Illustrations from './components/Illustrations';
 import LoadersAndAnimations from './components/LoadersAndAnimations';
 import Wallpapers from './components/Wallpapers';
 import NotFound from './components/NotFound';
+import SiteStats from './components/SiteStats';
 
 export default {
     mode: 'history',
@@ -56,5 +57,10 @@ export default {
             component: Wallpapers,
             name: 'Wallpapers'
         },
+        {
+            path: '/site-stats',
+            component: SiteStats,
+            name: 'SiteStats'
+        }
     ]
 }
