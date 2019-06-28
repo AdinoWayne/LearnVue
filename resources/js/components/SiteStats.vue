@@ -17,15 +17,13 @@ export default {
             lession: 0
         };
     },
-    methods: {
-        created() {
-            axios.get('http://localhost:8000/api/stats')
-                .then(response => response.data)
-                .then(function(data) {
-                    this.series = data.series;
-                    this.lession = data.lessions;
-                }.bind(this))
-        }
+    created() {
+        axios.get('http://localhost:8000/api/stats')
+            .then(response => response.data)
+            .then(function(data) {
+                this.series = data.series;
+                this.lession = data.lessions;
+            }.bind(this))
     }
 }
 </script>
