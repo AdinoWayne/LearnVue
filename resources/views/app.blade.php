@@ -37,6 +37,7 @@
                                <li class="text-sm leading-loose"><router-link class="text-black" to="/illustrations">Illustrations</router-link></li>
                                <li class="text-sm leading-loose"><router-link class="text-black" to="/loaders-and-animations">Loaders and Animations</router-link></li>
                                <li class="text-sm leading-loose"><router-link class="text-black" to="/wallpapers">Wallpapers</router-link></li>
+                               <li class="text-sm leading-loose"><router-link class="text-black" to="/achievements">Achievements</router-link></li>
                             </ul>
                         </section>
                     </aside>

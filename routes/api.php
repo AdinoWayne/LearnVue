@@ -19,3 +19,14 @@ Route::get('stats', function () {
         'lessions' => 1300
     ];
 });
+Route::get('achievenments', function() {
+    return [
+        "Start Your Enginer",
+        "Chatty Cathy",
+        "First Thousand",
+        "One Year Member",
+        "Laracast Tutor",
+        "School in Session",
+        "Welcome to the Community"
+    ];
+});
